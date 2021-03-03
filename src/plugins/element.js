@@ -64,8 +64,6 @@ import {
   Aside,
   Main,
   Footer,
-  Timeline,
-  TimelineItem,
   Link,
   Divider,
   Image,
@@ -78,7 +76,8 @@ import {
   Message,
   Notification
 } from 'element-ui'
-
+import Timeline from './timeline/index.js'
+import TimelineItem from './timeline-item/index.js'
 Vue.use(Pagination)
 Vue.use(Dialog)
 Vue.use(Autocomplete)
